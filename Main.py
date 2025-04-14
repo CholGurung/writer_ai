@@ -14,8 +14,7 @@ st.header('📙 Welcome to StoryScribe, your story generator and promoter!')
 
 load_dotenv()
 
-#openai_api_key = os.environ['OPENAI_API_KEY']
-openai_api_key = "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"
+openai_api_key = os.environ['OPENAI_API_KEY']
 
 # Create a sidebar for user input
 st.sidebar.title("Story teller and promoter")
